@@ -22,16 +22,19 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/dierccion_edit"
                 android:text="@string/labe_direccion"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:id="@+id/calle_num"
                 android:hint="@string/label_calle_num"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:id="@+id/ciudad_edi"
                 android:hint="@string/label_ciudad"/>
 
             <LinearLayout
@@ -42,12 +45,14 @@
                 <EditText
                     android:layout_width="200dp"
                     android:layout_height="60dp"
+                    android:id="@+id/estado_edit"
                     android:hint="@string/label_estado" />
 
                 <EditText
                     android:layout_width="200dp"
                     android:layout_height="60dp"
                     android:inputType="number"
+                    android:id="@+id/code_postal"
                     android:hint="@string/label_codigo_postal" />
 
             </LinearLayout>

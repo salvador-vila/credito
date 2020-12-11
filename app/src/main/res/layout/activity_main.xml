@@ -22,6 +22,7 @@
         <Button
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:id="@+id/btn_registrar"
             android:text="@string/save_guardar"/>
 
     </LinearLayout>
@@ -30,16 +31,19 @@
     <EditText
         android:layout_width="match_parent"
         android:hint="@string/label_nombre"
+        android:id="@+id/nombre_edit"
         android:layout_height="60dp"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:id="@+id/apellido_edit"
         android:hint="@string/label_apellido"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:id="@+id/num_tarjeta"
         android:inputType="number"
         android:maxLength="16"
         android:hint="@string/label_num_tarjeta"/>
@@ -55,12 +59,14 @@
             android:layout_height="60dp"
             android:inputType="number"
             android:maxLength="2"
+            android:id="@+id/mes_edit"
             android:hint="@string/label_mes"/>
 
         <EditText
             android:layout_width="120dp"
             android:layout_height="60dp"
             android:inputType="number"
+            android:id="@+id/año_edit"
             android:maxLength="4"
             android:hint="@string/label_año"/>
 
@@ -69,6 +75,7 @@
             android:layout_height="60dp"
             android:inputType="number"
             android:maxLength="3"
+            android:id="@+id/code_edit"
             android:hint="@string/label_codigo"/>
 
     </LinearLayout>
